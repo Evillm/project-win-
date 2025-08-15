@@ -10,7 +10,7 @@ include "./inc/select.php";
     <div class="col-md-8 p-lg-5 mx-auto my-5">
       <img src="images\imagesElebiary-icon.jpg" style="transform: translateX(255px);"> 
         <h1 class="display-4 fw-normal">Win with Elebiany</h1>
-        <p class="lead fw-normal">left for open to login</p>
+        <p class="lead fw-normal">Login is still open</p>
         <h3 id="countdown"></h3>
         <p class="lead fw-normal">project (php,css,html and mysql) <br>
          *كالقابض علي الجمر* </p>
@@ -31,7 +31,7 @@ include "./inc/select.php";
 <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
     <div class="col-md-5 p-lg-5 mx-auto my-5">
         <form  action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
-            <h3>الرجاء ادخل معلوماتك</h3>
+            <h3>pleasw inter your information </h3>
 
             <div class="mb-3">
                 <label for="firstName" class="form-label">First Name</label>
@@ -116,5 +116,6 @@ $users = mysqli_fetch_all($result, MYSQLI_ASSOC);
     </div>
     ---->
 <?php endif; ?>
+
 
 <?php include "./parts/footer.php"; ?>
