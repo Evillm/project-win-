@@ -15,7 +15,7 @@
     
 	$arr_available_languages = array();
 	$arr_available_languages[] = array('str_name' => 'English', 'str_token' => 'en');
-	$arr_available_languages[] = array('str_name' => 'Deutsch', 'str_token' => 'de');
+	$arr_available_languages[] = array('str_name' => 'russian', 'str_token' => 'de');
     
 	$str_available_languages = (string) '';
 	foreach ($arr_available_languages as $arr_language)
