@@ -1,4 +1,4 @@
-# Elebiany Random Winner Selection Project
+# Elebiary Random Winner Selection Project
 
 A web-based project for organizing a random prize draw using PHP, MySQL, HTML, and CSS.
 
